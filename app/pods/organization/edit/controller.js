@@ -1,12 +1,12 @@
-import Ember from "ember";
+import Ember from 'ember';
 
 export default Ember.Controller.extend({
     actions: {
         save: function () {
             this.get("model")
                 .save()
-                .then(function () {
-                    this.transitionToRoute("organizations");
+                .then(function (model) {
+                    this.transitionToRoute("organization.index", model);
                 }.bind(this));
         }
     }
