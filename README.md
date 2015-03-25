@@ -54,7 +54,7 @@ Specify what it takes to deploy your app.
 ### TODO
 
 - [x] Organization pages
-  - [ ] create
+  - [x] create
   - [ ] edit
   - [ ] add sport
   - [ ] remove sport
