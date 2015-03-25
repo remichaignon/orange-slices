@@ -1,0 +1,9 @@
+{{#if organizations}}
+    <ul class="organization-list">
+        {{#each organization in organizations}}
+            {{organization-list-item organization=organization}}
+        {{/each}}
+    </ul>
+{{else}}
+    No Organizations
+{{/if}}
