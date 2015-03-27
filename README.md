@@ -56,7 +56,7 @@ Specify what it takes to deploy your app.
 - [x] Organization pages
   - [x] create
   - [x] edit
-  - [ ] delete
+  - [x] delete
   - [ ] add sport
   - [ ] remove sport
 - [ ] Sport pages

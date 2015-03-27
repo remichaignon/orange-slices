@@ -1,0 +1,6 @@
+<p>You are trying to delete the {{record.constructor.typeKey}} with the id: <strong>{{record.id}}</strong>. To confirm the deletion, please type the id below.</p>
+
+<form class="delete-record-form" {{action "delete" on="submit"}}>
+    {{input type="text" name="name" value=name}}
+    <input type="submit" name="submit" value="Confirm delete" {{bind-attr disabled=isDisabled}}>
+</form>

@@ -7,5 +7,9 @@ export default Ember.Component.extend({
         save: function () {
             this.sendAction("save");
         }
-    }
+    },
+	
+	focusNameField: function () {
+		this.$().find("[name='name']").focus();
+	}.on("didInsertElement")
 });
