@@ -3,7 +3,7 @@ import DS from "ember-data";
 var Organization = DS.Model.extend({
     name: DS.attr("string"),
 
-    acitivities: DS.hasMany("activity", { async: true })
+    activities: DS.hasMany("activity", { async: true })
 });
 
 Organization.reopenClass({
