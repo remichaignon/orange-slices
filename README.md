@@ -63,10 +63,10 @@ Specify what it takes to deploy your app.
   - [x] create
   - [x] edit
   - [x] delete
-- [ ] Season pages
-  - [ ] create
-  - [ ] edit
-  - [ ] delete
+- [x] Season pages
+  - [x] create
+  - [x] edit
+  - [x] delete
   - [ ] add league
   - [ ] remove league
 - [ ] League pages

@@ -1,0 +1,9 @@
+{{#if seasons}}
+    <ul class="season-list">
+        {{#each season in seasons}}
+            {{season-list-item season=season}}
+        {{/each}}
+    </ul>
+{{else}}
+    No Season
+{{/if}}
