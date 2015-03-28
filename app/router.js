@@ -13,6 +13,14 @@ Router.map(function () {
     this.route("edit");
     this.route("delete");
   });
+
+  this.resource("sports", function () {
+    this.route("create");
+  });
+  this.resource("sport", { path: "/sport/:sport_id" }, function () {
+    this.route("edit");
+    this.route("delete");
+  });
 });
 
 export default Router;

@@ -1,0 +1,9 @@
+<h2 class="sport-name">{{sport.name}}</h2>
+
+<h4>Available for Organizations:</h4>
+
+{{#each organization in sport.organizations}}
+    {{organization.name}}
+{{else}}
+    None
+{{/each}}

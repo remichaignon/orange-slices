@@ -3,7 +3,7 @@ import {
   test
 } from 'ember-qunit';
 
-moduleForComponent('delete-record-form', {
+moduleForComponent('sport-detail', {
   // specify the other units that are required for this test
   // needs: ['component:foo', 'helper:bar']
 });

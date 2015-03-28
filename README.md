@@ -59,10 +59,10 @@ Specify what it takes to deploy your app.
   - [x] delete
   - [ ] add sport
   - [ ] remove sport
-- [ ] Sport pages
-  - [ ] create
-  - [ ] edit
-  - [ ] delete
+- [x] Sport pages
+  - [x] create
+  - [x] edit
+  - [x] delete
 - [ ] Season pages
   - [ ] create
   - [ ] edit
