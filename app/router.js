@@ -14,10 +14,42 @@ Router.map(function () {
     this.route("delete");
   });
 
-  this.resource("sports", function () {
+  this.resource("activities", function () {
     this.route("create");
   });
-  this.resource("sport", { path: "/sport/:sport_id" }, function () {
+  this.resource("activity", { path: "/activity/:activity_id" }, function () {
+    this.route("edit");
+    this.route("delete");
+  });
+
+  this.resource("seasons", function () {
+    this.route("create");
+  });
+  this.resource("season", { path: "/season/:season_id" }, function () {
+    this.route("edit");
+    this.route("delete");
+  });
+
+  this.resource("leagues", function () {
+    this.route("create");
+  });
+  this.resource("league", { path: "/league/:league_id" }, function () {
+    this.route("edit");
+    this.route("delete");
+  });
+
+  this.resource("teams", function () {
+    this.route("create");
+  });
+  this.resource("team", { path: "/team/:team_id" }, function () {
+    this.route("edit");
+    this.route("delete");
+  });
+
+  this.resource("users", function () {
+    this.route("create");
+  });
+  this.resource("user", { path: "/user/:user_id" }, function () {
     this.route("edit");
     this.route("delete");
   });

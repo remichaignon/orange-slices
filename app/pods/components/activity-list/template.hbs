@@ -1,0 +1,9 @@
+{{#if activities}}
+    <ul class="activity-list">
+        {{#each activity in activities}}
+            {{activity-list-item activity=activity}}
+        {{/each}}
+    </ul>
+{{else}}
+    No Activities
+{{/if}}

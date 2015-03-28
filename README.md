@@ -57,9 +57,9 @@ Specify what it takes to deploy your app.
   - [x] create
   - [x] edit
   - [x] delete
-  - [ ] add sport
-  - [ ] remove sport
-- [x] Sport pages
+  - [ ] add activity
+  - [ ] remove activity
+- [x] Activity pages
   - [x] create
   - [x] edit
   - [x] delete
@@ -86,12 +86,11 @@ Specify what it takes to deploy your app.
   - [ ] add player
   - [ ] remove player
   - [ ] edit manager
-- [ ] Player pages
+- [ ] User pages
   - [ ] create
   - [ ] edit
   - [ ] delete
-  - [ ] join team
-  - [ ] leave team
+  - [ ] change type?
   ...
 - [ ] Game pages
   - [ ] create
@@ -113,15 +112,21 @@ Specify what it takes to deploy your app.
   - [ ] create
   - [ ] edit
   - [ ] delete
+- [ ] Player pages
+  - [ ] create
+  - [ ] edit
+  - [ ] delete
+  - [ ] join team
+  - [ ] leave team
+- [ ] Volunteer pages
+  - [ ] create
+  - [ ] edit
+  - [ ] delete
 - [ ] Facility pages
   - [ ] create
   - [ ] edit
   - [ ] delete
 - [ ] Content pages
-  - [ ] create
-  - [ ] edit
-  - [ ] delete
-- [ ] Volunteer pages
   - [ ] create
   - [ ] edit
   - [ ] delete

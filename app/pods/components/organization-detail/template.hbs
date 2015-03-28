@@ -1,9 +1,4 @@
 <h2 class="organization-name">{{organization.name}}</h2>
 
-<h4>Available Sports:</h4>
-
-{{#each sport in organization.sports}}
-    {{sport.name}}
-{{else}}
-    None
-{{/each}}
+<h4>Available Activities:</h4>
+{{activity-list activities=organization.activities}}
