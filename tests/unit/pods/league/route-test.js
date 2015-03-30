@@ -3,7 +3,7 @@ import {
   test
 } from 'ember-qunit';
 
-moduleFor('league:season', {
+moduleFor('route:league', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
