@@ -1,0 +1,9 @@
+{{#if leagues}}
+    <ul class="league-list">
+        {{#each league in leagues}}
+            {{league-list-item league=league}}
+        {{/each}}
+    </ul>
+{{else}}
+    No League
+{{/if}}
