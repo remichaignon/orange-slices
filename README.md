@@ -77,10 +77,10 @@ Specify what it takes to deploy your app.
   - [ ] leave season
   - [ ] add team
   - [ ] leave team
-- [ ] Team pages
-  - [ ] create
-  - [ ] edit
-  - [ ] delete
+- [x] Team pages
+  - [x] create
+  - [x] edit
+  - [x] delete
   - [ ] join league
   - [ ] leave league
   - [ ] add player

@@ -1,0 +1,9 @@
+{{#if teams}}
+    <ul class="team-list">
+        {{#each team in teams}}
+            {{team-list-item team=team}}
+        {{/each}}
+    </ul>
+{{else}}
+    No Team
+{{/if}}

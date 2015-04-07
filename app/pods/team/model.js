@@ -3,8 +3,8 @@ import DS from "ember-data";
 var Team = DS.Model.extend({
     name: DS.attr("string"),
 
-    organization: DS.belongsTo("organization"),
-    activity: DS.belongsTo("activity")
+    organization: DS.belongsTo("organization", { async: true }),
+    activity: DS.belongsTo("activity", { async: true })
 });
 
 Team.reopenClass({
