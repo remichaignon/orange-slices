@@ -1,0 +1,9 @@
+{{#if users}}
+    <ul class="user-list">
+        {{#each user in users}}
+            {{user-list-item user=user}}
+        {{/each}}
+    </ul>
+{{else}}
+    No User
+{{/if}}

@@ -86,10 +86,10 @@ Specify what it takes to deploy your app.
   - [ ] add player
   - [ ] remove player
   - [ ] edit manager
-- [ ] User pages
-  - [ ] create
-  - [ ] edit
-  - [ ] delete
+- [x] User pages
+  - [x] create
+  - [x] edit
+  - [x] delete
   - [ ] change type?
   ...
 - [ ] Game pages
