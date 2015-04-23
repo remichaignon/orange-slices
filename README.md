@@ -51,6 +51,26 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### Models
+
+- Organization
+- Activity
+- Season
+- Level
+- Team
+- User+
+- Gane Day
+- Game/Fixture
+
+Thru tables
+- Organization + Activity = Exercise
+- Organization + Activity + Season =Exercise + Season = Competition
+- Competition + Level = League
+- League + Team = Team Membership
+- League + Team + User+ = Team Membership + User+ = User Membership
+- League + Game Day = Fixture
+- League + Game Day + Game = Fixture + Game = Single Fixture
+
 ### TODO
 
 - [x] Organization pages
