@@ -63,13 +63,13 @@ Specify what it takes to deploy your app.
 - Game/Fixture
 
 Thru tables
-- Organization + Activity = Exercise
-- Organization + Activity + Season =Exercise + Season = Competition
-- Competition + Level = League
-- League + Team = Team Membership
-- League + Team + User+ = Team Membership + User+ = User Membership
-- League + Game Day = Fixture
-- League + Game Day + Game = Fixture + Game = Single Fixture
+- Organization + Activity = Exercise : Outdoor Soccer @ Boulder Park & Rec
+- Organization + Activity + Season = Exercise + Season = Competition : Outdoor Soccer @ Boulder Park & Rec in Summer
+- Competition + Level = League : Outdoor Soccer @ Boulder Park & Rec in Summer, Level 3
+- League + Team = Team Membership : Outdoor Soccer @ Boulder Park & Rec in Summer, Level 3 - Bunga Bunga
+- League + Team + User+ = Team Membership + User+ = User Membership : Outdoor Soccer @ Boulder Park & Rec in Summer, Level 3 - Bunga Bunga - Rémi Chaignon
+- League + Game Day = Gameweek : Outdoor Soccer @ Boulder Park & Rec in Summer, Level 3 - Gameweek 1
+- League + Game Day + Game = Gameweek + Game = Fixture : Outdoor Soccer @ Boulder Park & Rec in Summer, Level 3 - Gameweek 1 - Bunga Bunga vs Vivace
 
 ### TODO
 
