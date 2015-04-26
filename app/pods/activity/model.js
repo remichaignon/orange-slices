@@ -1,15 +1,15 @@
 import DS from "ember-data";
 
 var Activity = DS.Model.extend({
-    name: DS.attr("string"),
-	
-	organizations: DS.hasMany("organization", { async: true })
+    name: DS.attr("string")
 });
 
 Activity.reopenClass({
     FIXTURES: [
-        { id: "soccer", name: "Soccer", organizations: ["boulder-co", "pawnee-in"] },
-        { id: "dodgeball", name: "Dodgeball", organizations: ["boulder-co", "pawnee-in"] }
+        { id: "indoor-coed-soccer", name: "Indoor Coed Soccer" },
+        { id: "coed-dodgeball", name: "Coed Dodgeball" },
+		{ id: "outdoor-coed-soccer", name: "Outdoor Coed Soccer" },
+		{ id: "indoor-men-soccer", name: "Indoor Men Soccer"}
     ]
 });
 
