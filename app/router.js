@@ -22,14 +22,6 @@ Router.map(function () {
     this.route("delete");
   });
 
-  this.resource("seasons", function () {
-    this.route("create");
-  });
-  this.resource("season", { path: "/season/:season_id" }, function () {
-    this.route("edit");
-    this.route("delete");
-  });
-
   this.resource("leagues", function () {
     this.route("create");
   });
