@@ -5,7 +5,7 @@ import {
 
 moduleForModel('team', {
   // Specify the other units that are required for this test.
-  needs: ["model:organization", "model:activity"]
+  needs: ["model:organization", "model:activity", "model:league"]
 });
 
 test('it exists', function(assert) {

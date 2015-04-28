@@ -5,7 +5,7 @@ import {
 
 moduleForComponent('organization-detail', {
   // specify the other units that are required for this test
-  needs: ['component:activity-list']
+  needs: ['component:activity-list', "component:league-list"]
 });
 
 test('it renders', function(assert) {
