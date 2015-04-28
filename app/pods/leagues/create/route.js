@@ -12,5 +12,20 @@ export default Ember.Route.extend({
     },
     model: function () {
         return this.store.createRecord("league");
+    },
+    setupController: function (controller, model) {
+        controller.set("model", model);
+        
+        this.store
+            .find("organization")
+            .then(function (organizations) {
+                controller.set("organizations", organizations);
+            });
+        
+        this.store
+            .find("activity")
+            .then(function (activities) {
+                controller.set("activities", activities);
+            });
     }
 });

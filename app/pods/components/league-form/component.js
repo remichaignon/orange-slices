@@ -2,6 +2,8 @@ import Ember from "ember";
 
 export default Ember.Component.extend({
     league: null,
+    organizations: null,
+    activities: null,
 
     actions: {
         save: function () {
