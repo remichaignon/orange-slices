@@ -1,29 +1,29 @@
 <form class="league-form pure-form pure-form-stacked" {{action "save" on="submit"}}>
-    {{input type="text" name="name" value=league.name}}
-    
-    {{#if league.isNew}}
-        {{view "select" content=organizations
-                        optionLabelPath="content.name"
-                        optionValuePath="content.id"
-                        prompt="Pick an organization:"
-                        selection=league.organization}}
-    {{else}}
-        {{input type="text" nane="organization" value=league.organization.name disabled="disabled"}}
-    {{/if}}
+  {{input type="text" name="name" value=league.name}}
 
-    {{#if league.isNew}}
-        {{view "select" content=activities
-                        optionLabelPath="content.name"
-                        optionValuePath="content.id"
-                        prompt="Pick an activity:"
-                        selection=league.activity}}
-    {{else}}
-        {{input type="text" nane="activity" value=league.activity.name disabled="disabled"}}
-    {{/if}}
-    
-    // start, end, order - eidt always
-    // current games - edit game (add, link and delete?)
-    // current teams - edit team (add, link and delete?)
+  {{#if league.isNew}}
+    {{view "select" content=organizations
+                    optionLabelPath="content.name"
+                    optionValuePath="content.id"
+                    prompt="Pick an organization:"
+                    selection=league.organization}}
+  {{else}}
+    {{input type="text" nane="organization" value=league.organization.name disabled="disabled"}}
+  {{/if}}
 
-    <input type="submit" name="submit" value="Save">
+  {{#if league.isNew}}
+    {{view "select" content=activities
+                    optionLabelPath="content.name"
+                    optionValuePath="content.id"
+                    prompt="Pick an activity:"
+                    selection=league.activity}}
+  {{else}}
+    {{input type="text" nane="activity" value=league.activity.name disabled="disabled"}}
+  {{/if}}
+
+  // start, end, order - edit always
+  // current games - edit game (add, link and delete?)
+  // current teams - edit team (add, link and delete?)
+
+  <input type="submit" name="submit" value="Save">
 </form>
