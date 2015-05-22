@@ -1,15 +1,15 @@
 import {
   moduleFor,
   test
-} from 'ember-qunit';
+} from "ember-qunit";
 
-moduleFor('controller:leagues/create', {
+moduleFor("controller:leagues/create", {
   // Specify the other units that are required for this test.
-  // needs: ['controller:foo']
+  // needs: ["controller:foo"]
 });
 
 // Replace this with your real tests.
-test('it exists', function(assert) {
+test("it exists", function(assert) {
   var controller = this.subject();
   assert.ok(controller);
 });

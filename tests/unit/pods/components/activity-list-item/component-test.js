@@ -1,21 +1,21 @@
 import {
   moduleForComponent,
   test
-} from 'ember-qunit';
+} from "ember-qunit";
 
-moduleForComponent('activity-list-item', {
+moduleForComponent("activity-list-item", {
   // specify the other units that are required for this test
-  // needs: ['component:foo', 'helper:bar']
+  // needs: ["component:foo", "helper:bar"]
 });
 
-test('it renders', function(assert) {
+test("it renders", function(assert) {
   assert.expect(2);
 
   // creates the component instance
   var component = this.subject();
-  assert.equal(component._state, 'preRender');
+  assert.equal(component._state, "preRender");
 
   // renders the component to the page
   this.render();
-  assert.equal(component._state, 'inDOM');
+  assert.equal(component._state, "inDOM");
 });

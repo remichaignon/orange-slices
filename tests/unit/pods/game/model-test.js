@@ -1,14 +1,14 @@
 import {
   moduleForModel,
   test
-} from 'ember-qunit';
+} from "ember-qunit";
 
-moduleForModel('game', {
+moduleForModel("game", {
   // Specify the other units that are required for this test.
   needs: ["model:league", "model:organization", "model:activity", "model:team"]
 });
 
-test('it exists', function(assert) {
+test("it exists", function(assert) {
   var model = this.subject();
   // var store = this.store();
   assert.ok(!!model);

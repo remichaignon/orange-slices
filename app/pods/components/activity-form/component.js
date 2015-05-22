@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import Ember from "ember";
 
 export default Ember.Component.extend({
   activity: null,
@@ -10,6 +10,6 @@ export default Ember.Component.extend({
   },
 
   focusNameField: function () {
-    this.$().find("[name='name']").focus();
+    this.$().find("[name="name"]").focus();
   }.on("didInsertElement")
 });

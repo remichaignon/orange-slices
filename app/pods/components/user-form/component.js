@@ -10,6 +10,6 @@ export default Ember.Component.extend({
   },
 
   focusNameField: function () {
-    this.$().find("[name='name']").focus();
+    this.$().find("[name="name"]").focus();
   }.on("didInsertElement")
 });
