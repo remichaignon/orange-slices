@@ -2,6 +2,7 @@
   {{input type="text" name="name" value=league.name}}
 
   {{#if league.isNew}}
+    <!-- TODO: Use Select2 -->
     {{view "select" content=organizations
                     optionLabelPath="content.name"
                     optionValuePath="content.id"
@@ -12,6 +13,7 @@
   {{/if}}
 
   {{#if league.isNew}}
+    <!-- TODO: Use Select2 -->
     {{view "select" content=activities
                     optionLabelPath="content.name"
                     optionValuePath="content.id"
