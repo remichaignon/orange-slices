@@ -9,7 +9,7 @@
                     prompt="Pick an organization:"
                     selection=league.organization}}
   {{else}}
-    {{input type="text" nane="organization" value=league.organization.name disabled="disabled"}}
+    {{input type="text" name="organization" value=league.organization.name disabled="disabled"}}
   {{/if}}
 
   {{#if league.isNew}}
@@ -20,12 +20,14 @@
                     prompt="Pick an activity:"
                     selection=league.activity}}
   {{else}}
-    {{input type="text" nane="activity" value=league.activity.name disabled="disabled"}}
+    {{input type="text" name="activity" value=league.activity.name disabled="disabled"}}
   {{/if}}
 
-  // start, end, order - edit always
-  // current games - edit game (add, link and delete?)
-  // current teams - edit team (add, link and delete?)
+  <!-- TODO: Date pickers for start and end -->
+  {{input type="date" name="start" value=league.start}}
+  {{input type="date" name="end" value=league.end}}
+
+  {{input type="text" name="order" value=league.order}}
 
   <input type="submit" name="submit" value="Save">
 </form>

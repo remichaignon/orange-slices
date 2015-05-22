@@ -28,6 +28,12 @@ Router.map(function () {
   this.resource("league", { path: "/league/:league_id" }, function () {
     this.route("edit");
     this.route("delete");
+
+    this.route("add-team");
+    this.route("remove-team");
+
+    this.route("add-game");
+    this.route("remove-game");
   });
 
   this.resource("teams", function () {
@@ -36,6 +42,9 @@ Router.map(function () {
   this.resource("team", { path: "/team/:team_id" }, function () {
     this.route("edit");
     this.route("delete");
+
+    this.route("add-player");
+    this.route("remove-player");
   });
 
   this.resource("users", function () {

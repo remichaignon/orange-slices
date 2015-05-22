@@ -1,6 +1,15 @@
 <h2 class="team-name">{{team.name}}</h2>
 
-<p>For {{team.activity.name}} @ {{team.organization.name}}</p>
+<h4>Current Leagues:</h4>
+{{league-list leagues=team.currentLeagues}}
 
-<h4>Available Players:</h4>
-{{!--user-list users=team.users--}}
+<h4>Current Players:</h4>
+{{player-list users=team.currentPlayers}}
+{{link-to "team.add-player" team}}Add player{{/link-to}}
+{{link-to "team.remove-player" team}}Remove player{{/link-to}}
+
+<h4>All Leagues:</h4>
+{{league-list leagues=team.leagues}}
+
+<h4>All Players:</h4>
+{{player-list users=team.players}}
