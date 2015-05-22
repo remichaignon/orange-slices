@@ -47,6 +47,14 @@ Router.map(function () {
     this.route("remove-player");
   });
 
+  this.resource("games", function () {
+    this.route("create");
+  });
+  this.resource("game", function () {
+    this.route("edit");
+    this.route("delete");
+  })
+
   this.resource("users", function () {
     this.route("create");
   });

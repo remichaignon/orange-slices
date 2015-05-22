@@ -1,0 +1,12 @@
+<h2>Add team to league {{model.name}}</h2>
+
+<form class="league-form pure-form pure-form-stacked" {{action "save" on="submit"}}>
+  <!-- TODO: Use Select2 for multiple selection -->
+  {{view "select" content=teams
+                  optionLabelPath="content.name"
+                  optionValuePath="content.id"
+                  prompt="Pick a team:"
+                  selection=selectedTeam}}
+
+  <input type="submit" name="submit" value="Save">
+</form>
