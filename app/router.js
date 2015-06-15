@@ -53,7 +53,7 @@ Router.map(function () {
   this.resource("game", function () {
     this.route("edit");
     this.route("delete");
-  })
+  });
 
   this.resource("users", function () {
     this.route("create");

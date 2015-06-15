@@ -9,4 +9,5 @@ export default Ember.Controller.extend({
           this.transitionToRoute("organizations");
         }.bind(this));
     }
+  }
 });

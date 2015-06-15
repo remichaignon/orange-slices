@@ -5,8 +5,8 @@
 
 <h4>Current Players:</h4>
 {{player-list users=team.currentPlayers}}
-{{link-to "team.add-player" team}}Add player{{/link-to}}
-{{link-to "team.remove-player" team}}Remove player{{/link-to}}
+{{#link-to "team.add-player" team}}Add player{{/link-to}}
+{{#link-to "team.remove-player" team}}Remove player{{/link-to}}
 
 <h4>All Leagues:</h4>
 {{league-list leagues=team.leagues}}

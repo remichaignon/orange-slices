@@ -6,10 +6,12 @@ export default Ember.Controller.extend({
 
   actions: {
     save: function () {
-      if (!team) return;
+      if (!this.get("team")) {
+        return;
+      }
 
       // TODO: Does this make sense?
-      this.get("model.teams").addObject(selectedTeam);
+      this.get("model.teams").addObject(this.get("selectedTeam"));
 
       this.get("model")
         .save()

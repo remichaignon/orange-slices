@@ -8,9 +8,9 @@
 <p>Order: {{league.order}}</p>
 
 {{team-list teams=league.teams}}
-{{link-to "league.add-team" league}}Add team{{/link-to}}
-{{link-to "league.remove-team" league}}Remove team{{/link-to}}
+{{#link-to "league.add-team" league}}Add team{{/link-to}}
+{{#link-to "league.remove-team" league}}Remove team{{/link-to}}
 
 {{game-list players=league.games}}
-{{link-to "league.add-game" league}}Add game{{/link-to}}
-{{link-to "league.remove-game" league}}Remove game{{/link-to}}
+{{#link-to "league.add-game" league}}Add game{{/link-to}}
+{{#link-to "league.remove-game" league}}Remove game{{/link-to}}
